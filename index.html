@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MyPortfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- je mets cela en commentaire car l'image est trop grand 
+             et dans ce cour on ne peut utiliser que le html-->
+
+        <img src="./medias/logo.png" alt="mon logo" class="logo" />
+        <div>
+          <ul type="none" class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="about">
+          <h1 id="about"></h1>
+          <div class="titre-a-propos">
+            <h3>Informations personnelles</h3>
+            <p>AMARA GBOKO ANZOUMANAN</p>
+            <p>DEVELOPPEUR D'APLLICATION</p>
+          </div>
+        </div>
+      </section>
+      <section class="a-propos-de-moi">
+        <h1>About me !</h1>
+        <div class="myphoto">
+          <img src="./medias/photo1.jpg" alt="ma photo" class="ma_photo" />
+        </div>
+        <div class="text_propos">
+          <p>
+            Bonjour, <br />Je suis développeur Web formé à l'Université
+            Virtuelle de Cote d'Ivoire et vis actuellement à yopougon. Je suis
+            également en formation de prototypeur de jeux video.
+          </p>
+          <p>
+            J'ai travaillé une année sur des postes d'enseignant benevol de
+            l'éducation nationale , six(6) mois en temps stagiaires à l'agence
+            emploi jeune de cote d'Ivoire puis six autres mois de services au
+            poste de responsable interimaire du meme guichet de l'agence emploi
+            jeune.
+          </p>
+          <p>
+            Diplômé en licence de développeur d'applications, <br />je suis
+            presentement en formation pour renforcer ces nouvelles compétences.
+            D’un naturel curieux, logique et pragmatique j’aimerais intégrer un
+            poste de développeur Web full stack afin de monter en compétence
+            technique.
+          </p>
+          <p>
+            Passionné par les technologies, la physique et le monde qui nous
+            entoure, je suis ouvert à tous types de secteurs et pourrait faire
+            profiter de mon expérience du milieu industriel et de mes qualités
+            d'organisation dans la conduite de projets.
+          </p>
+        </div>
+      </section>
+
+      <section id="work">
+        <h1>Work</h1>
+        <div class="work">
+          <div>
+            <iframe
+              width="884"
+              height="497"
+              src="https://www.youtube.com/embed/e7QLLCzFOsI"
+              title="MA PREMIÈRE RÉALISATION YOUTUBE"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Ma premiere realisation youtube! <br />
+              Ne vous moquez pas s'il vous plait! <br />
+              Encouragez moi plutot!
+            </p>
+          </div>
+          <div class="mes_projet">
+            <h1>MES PROJETS</h1>
+            <p>voulez-vous suivre mes projets?</p>
+            <ul type="none">
+              <li>
+                <a href="https://pratice-tailwindcss-two.vercel.app/"
+                  ><i style="color: blue">pratice-tailwindcss</i> <br />est le
+                  lien de mon premier projet avec gomycode</a
+                >
+              </li>
+              <li>
+                <a href="" style="color: blue"><i>AzoumServ.com</i> </a>
+                <br />projet en cours
+              </li>
+            </ul>
+          </div>
+          <div></div>
+        </div>
+      </section>
+
+      <section>
+        <h1 id="resume">Resume</h1>
+        <h4>Preferences</h4>
+
+        <dl>
+          <dt>Musique</dt>
+          <dd>
+            <p>dj congelateur</p>
+
+            <audio controls>
+              <source
+                src="./medias/jhbbachchoir.co.za - MERCI SEIGNEUR.mp3"
+                type="audio/mp3"
+              />
+            </audio>
+          </dd>
+          <dt>sport</dt>
+          <dd>Football</dd>
+          <dt>Medias</dt>
+          <dd><a href="https://www.tiktok.com/fr/">TikTok!</a></dd>
+        </dl>
+      </section>
+
+      <section>
+        <h1 id="contact">Contact</h1>
+        <h3>contact us!</h3>
+        <form>
+          <div>
+            <label for="name">NOM</label><br />
+            <input type="text" placeholder="votre nom" required />
+          </div>
+          <div>
+            <label for="lastname">PRENOMS</label><br />
+            <input type="text" placeholder="vos prenoms" required />
+          </div>
+
+          <div>
+            <label for="email">E-MAIL</label><br />
+            <input type="email" placeholder="votre e-mail" />
+          </div>
+          <div>
+            <label for="number">Telephone</label><br />
+            <input type="" placeholder="votre telephone" />
+          </div>
+
+          <div>
+            <label for="message">Votre Message</label><br />
+            <textarea
+              name="textarea"
+              id=""
+              placeholder="votre message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">ENVOYER</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>AzoumServ.com</p>
+      <p>© Copyright 2023 | Amara Ggboko | Tous droits réservés</p>
+    </footer>
+  </body>
+</html>

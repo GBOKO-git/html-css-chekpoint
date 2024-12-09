@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: roboto, sans-serif;
+  background-color: #eee1e1; /* Couleur de fond */
+  text-align: center;
+}
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(143, 143, 158);
+  color: brown;
+  position: fixed;
+  top: 0;
+  padding-left: 25px;
+}
+.menu {
+  display: flex;
+  gap: 3rem;
+  color: brown;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+footer {
+  color: rgb(17, 19, 148);
+  text-align: center;
+}
+.logo {
+  border-radius: 15rem;
+}
+ul {
+  padding: 0px 45px 25px 25px;
+  margin-right: 15px;
+}
+h1 {
+  text-align: center;
+}
+.myphoto {
+  display: flex;
+  justify-content: center;
+}
+.about {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8) url(/medias/background.jpg);
+  background-blend-mode: darken;
+  background-position: 50%;
+  background-size: auto;
+  display: flex;
+  height: 100vh;
+  margin-top: 0;
+  width: 100%;
+  flex-direction: column;
+  color: #f4f4f4;
+  justify-content: center;
+  letter-spacing: 5px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.ma_photo {
+  /*
+  width: 80%;
+  height: auto;
+  opacity: 0.5;
+  transition: opcity 0.3s;
+  */
+  border-radius: 5rem;
+}
+.work {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+form {
+  display: block;
+  justify-content: space-around;
+}
+.info-perso {
+  position: relative;
+}
+/* center un contenu
+.h4 {
+  color: #f4f4f4;
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: transform(-50% -50%);
+}
+*/
+
+.text_propos {
+  margin-left: 400px;
+  margin-right: 400px;
+  justify-content: center;
+}
+a {
+  color: black;
+}
+dl {
+  display: flex;
+  justify-content: center;
+}
+dt {
+  margin-left: 15px;
+}
+dd {
+  margin-top: 15px;
+}
+.mes_projet {
+  margin-top: 200px;
+}
+.text_propos > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+input {
+  border-radius: 0.5rem;
+  height: 25px;
+  width: auto;
+}
